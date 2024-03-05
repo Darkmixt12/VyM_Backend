@@ -10,8 +10,8 @@ const cors = require('cors') /* libreria para entrar desde otro dominio */
 
 
 var app = express();
-const whiteList = ['http://192.1.1.149:4200','http://localhost:4200'];
-
+const whiteList = ['http://localhost:4200'];
+/* http://192.1.1.149:4200 */
 
 /* RUTAS */
 
